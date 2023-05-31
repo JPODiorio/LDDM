@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class RegistrationScreen extends StatefulWidget {
+class Cadastro extends StatefulWidget {
   @override
-  _RegistrationScreenState createState() => _RegistrationScreenState();
+  _Cadastro createState() => _Cadastro();
 }
 
-class _RegistrationScreenState extends State<RegistrationScreen> {
+class _Cadastro extends State<Cadastro> {
   bool visivel = false;
   TextEditingController nome = TextEditingController();
   TextEditingController dataNascimento = TextEditingController();
@@ -46,7 +46,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Registration'),
+        title: const Text('Cadastro'),
       ),
       body: DefaultTextStyle(
         style: TextStyle(fontSize: tamanhoFonte),
